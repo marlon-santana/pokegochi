@@ -65,7 +65,7 @@ console.log(remedio)
       setPasseio(passeio -3)
     }, 70000);
     }
-    
+     
   },[passeio])
 
   
@@ -73,13 +73,8 @@ console.log(remedio)
       setTimeout(() => {
       setRemedio(remedio -5)
       
-    }, 10000);
+    }, 1000);
     }
-    
-  
-  
-  
-    
 
   return (
     <div className="container">
