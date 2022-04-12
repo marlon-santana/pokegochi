@@ -1,0 +1,28 @@
+.janela {
+    margin: 0 auto;
+    background-image: url('../images/background.jpg');
+    background-size: 130%;
+    width: 800px;
+    height: 600px;
+}
+
+
+nav {
+    display: flex;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    background-color: blue;
+    width: 800px;
+    height: 50px;
+}
+
+button {
+    width: 180px;
+    height: 30px;
+    margin-top: 10px;
+}
+img {
+    margin-left: 100px;
+}
+
