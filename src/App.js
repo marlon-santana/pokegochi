@@ -22,7 +22,7 @@ function App() {
   const total = fome + treino + passeio + remedio
 
  function AddFome () {
-   setfome(fome + 10)
+   setfome(fome + 9)
  }
 
  function AddTreino () {
