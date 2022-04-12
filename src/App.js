@@ -26,7 +26,7 @@ function App() {
  }
 
  function AddTreino () {
-  setTreino(treino + 10)
+  setTreino(treino + 11)
 }
 
 function AddPasseio () {
