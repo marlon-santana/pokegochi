@@ -1,10 +1,16 @@
 import { Grid } from '@material-ui/core';
+import { useEffect } from 'react';
 
-export function Chanel () {
+export function Chanel (props) {
+    const { escolha } = props
+
+    useEffect(() => {
+        console.log(escolha)
+      },[])
     return (
         <Grid style={{width:'80%', height:'500px', backgroundColor:'blue', zIndex: 10}}>
             <iframe
-            src='https://embedflix.net/tv/' 
+            src={escolha} 
             width="100%"
             height="100%" 
             frameborder="0" 
