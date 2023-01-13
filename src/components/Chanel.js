@@ -18,17 +18,16 @@ const serie = series.halo.path;
     
     return (
         <Grid style={{width:'80%', height:'500px'}}>
-            <iframe 
-            width="100%"
-            height="100%" 
-            frameborder="0" 
-            target='blanck'
-            // scrolling="no" 
-            marginheight="0" 
-            marginwidth="0"
-            allowfullscreen="true"
-           >
-            </iframe>
+          <iframe  src="https://embedflix.net/tv/" 
+          frameborder="0" 
+          height="400" 
+          scrolling="no" 
+          width="640" 
+          allowFullScreen
+          allow="autoplay; fullscreen; picture-in-picture; xr-spatial-tracking; clipboard-write"
+          >
+          
+           </iframe>
            
         </Grid>
     );

@@ -38,9 +38,7 @@ export function Menu () {
            <Button href="https://embedflix.net/tv/telecine-action-hd" target='_self' variant="outlined">TELE CINE ACTION</Button>
            <Button href="https://embedflix.net/tv/hbo-2" target='_self' variant="outlined">HBO</Button>
            <Button href="https://embedflix.net/tv/national-geographic" target='_self' variant="outlined">NATIONAL GEOGRAPHIC</Button>
-           <Button href="https://embedflix.net/tv/national-geographic" target='_self' variant="outlined">NATIONAL GEOGRAPHIC</Button>
+          
           
         </Box>
     )
-       
-}

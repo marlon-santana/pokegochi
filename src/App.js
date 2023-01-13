@@ -11,8 +11,10 @@ import '../src/global.css'
 
 
 
-function App(props) {
-  const {escolha} = props;
+
+function App() {
+
+
 
  
   return (
@@ -21,10 +23,10 @@ function App(props) {
       <Header />
       <Box style={{display:'flex'}}>
       <Menu />
+      {/* <Embed /> */}
+      <Chanel />
       </Box>
-      
     </Box>
-
   );
 }
 
